@@ -135,7 +135,7 @@
 // }
 // counting();
 
-// #8 Missing
+// #8 Not Included
 
 // function area(a,b){
 //     document.write(a*b);
@@ -147,3 +147,23 @@
 // var width = prompt("Enter Width");
 // var height = prompt("Enter Height");
 // area(width,height);
+
+// var str = prompt("Enter a word");
+// function palindrome(){
+//     var strSplit = str.split('');
+//     var strRev = strSplit.reverse().join('');
+//     if(str === strRev){
+//         alert("Yeah! Its a Palindrome.");
+//     }else{
+//         alert("Sorry! Its not a Palindrome.")
+//     }
+// }
+// palindrome();
+
+// function capitalized(sentence){
+//     var sentenceStr = (str) => str[0].toUpperCase() + str.slice(1).toLowerCase();
+//     var sentenceSplit = sentence.split(' ').map(sentenceStr);
+//     var sentenceJoin = sentenceSplit.join(' ');
+//     return document.write(sentenceJoin);
+// }
+// capitalized("the quick brown fox jumps over the lazy dog");
